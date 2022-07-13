@@ -27,6 +27,45 @@ img{
     margin: 0 auto;
 }
 
+.select2-results__option--selectable {
+    color: #8a898d;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #f0f0f0;
+    color: #444;
+}
+
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 38px;
+    padding-top: 5px;
+    padding-left: 5px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    background-image: url(https://cdn4.iconfinder.com/data/icons/user-interface-174/32/UIF-76-512.png);
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    left: auto;
+  }
+
+
+
 .calc__block{
     margin-top: 70px;
 }

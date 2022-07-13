@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/select2.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -50,13 +52,17 @@
                                             <p class="dropdown__info">Размер блока</p>
 
                                             <select class="select" name="select" size="1">
-                                                <option selected value="s1">№2 Блок Энергоэффективный 380*300*588мм
+                                                <option selected value="s1">№1 Блок Стандартный 188*300*588мм
                                                 </option>
                                                 <option value="s2">№2 Блок Энергоэффективный 380*300*588мм
                                                 </option>
-                                                <option value="s3">№2 Блок Энергоэффективный 380*300*588мм
+                                                <option value="s3">№3 Блок Комфорт (с кирпичем) 285*300*588мм
                                                 </option>
-                                                <option value="s4">№2 Блок Энергоэффективный 380*300*588мм
+                                                <option value="s4">№4 Блок Комфорт ( с кирпичем) 250*188*588мм
+                                                </option>
+                                                <option value="s5">№5 Блок Комфорт + ( с кирпичем) 235*300*588мм
+                                                </option>
+                                                <option value="s6">№6 Блок Комфорт (с утеплением) 188*300*588мм
                                                 </option>
                                             </select>
 
@@ -73,13 +79,11 @@
                                             <p class="dropdown__info">Марка</p>
 
                                             <select class="select" name="select" size="1">
-                                                <option selected value="s1">D 500
+                                                <option selected value="s1">D 400
                                                 </option>
                                                 <option value="s2">D 500
                                                 </option>
-                                                <option value="s3">D 500
-                                                </option>
-                                                <option value="s4">D 500
+                                                <option value="s3">D 600
                                                 </option>
                                             </select>
 
@@ -129,11 +133,9 @@
                                             <select class="select-number" name="select-number" size="1">
                                                 <option selected value="s1">2,7
                                                 </option>
-                                                <option value="s2">2,7
+                                                <option value="s2">3
                                                 </option>
-                                                <option value="s3">2,7
-                                                </option>
-                                                <option value="s4">2,7
+                                                <option value="s3">3,2
                                                 </option>
                                             </select>
                                         </div>
@@ -427,7 +429,9 @@
 
     </div>
     </div>
-
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
