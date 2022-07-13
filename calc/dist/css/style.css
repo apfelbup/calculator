@@ -291,6 +291,7 @@ img{
 }
 
 .dropdown__descr{
+    margin-top: 10px;
     display: flex;
     align-items: baseline;
 }
